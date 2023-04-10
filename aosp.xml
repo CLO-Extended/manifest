@@ -237,6 +237,8 @@
   <project path="system/libufdt" name="platform/system/libufdt" remote="aosp" />
   <remove-project name="platform/system/logging" />
   <project path="system/logging" name="platform/system/logging" remote="aosp" />
+  <remove-project name="platform/system/memory/lmkd" />
+  <project path="system/memory/lmkd" name="platform/system/memory/lmkd" remote="aosp" />
   <remove-project name="platform/system/nfc" />
   <project path="system/nfc" name="platform/system/nfc" remote="aosp" />
 
