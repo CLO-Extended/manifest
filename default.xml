@@ -23,7 +23,7 @@
 
   <!-- AOSPA -->
   <remote  name="aospa"
-           fetch=".."
+           fetch="ssh://git@github.com"
            review="gerrit.aospa.co"
            revision="topaz"/>
 
@@ -40,13 +40,18 @@
            revision="topaz" />
 
   <remote  name="github"
-           fetch="https://github.com" />
+           fetch="ssh://git@github.com" />
 
   <remote  name="github-ssh"
            fetch="ssh://git@github.com" />
 
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
+
+  <!-- Custom -->
+  <remote  name="cloex"
+           fetch="https://github.com/CLO-Extended"
+           revision="topaz" />
 
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
