@@ -19,9 +19,10 @@
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
-  <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/modules/Connectivity" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/system/core" />
 
   <!-- Build and Core -->
@@ -48,17 +49,21 @@
   <!-- Frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="cloex" />
 
-  <!-- Packages (CLO Extended) -->
-  <project path="packages/apps/Contacts" name="yaap/packages_apps_Contacts" remote="github" revision="thirteen" />
-  <project path="packages/apps/Dialer" name="yaap/packages_apps_Dialer" remote="github" revision="thirteen" />
-  <project path="packages/apps/DeskClock" name="yaap/packages_apps_DeskClock" remote="github" revision="thirteen" />
+  <!-- Packages (Custom) -->
+  <project path="packages/apps/Contacts" name="Project-Awaken/android_packages_apps_Contacts" remote="github" revision="triton" />
+  <project path="packages/apps/Dialer" name="Project-Awaken/android_packages_apps_Dialer" remote="github" revision="triton" />
+  <project path="packages/apps/DeskClock" name="Project-Awaken/android_packages_apps_DeskClock" remote="github" revision="triton" />
   <project path="packages/apps/DocumentsUI" name="LineageOS/android_packages_apps_DocumentsUI" remote="github" revision="lineage-20.0" />
-  <project path="packages/apps/ExactCalculator" name="yaap/packages_apps_ExactCalculator" remote="github" revision="thirteen" />
-  <project path="packages/apps/Messaging" name="yaap/packages_apps_Messaging" remote="github" revision="thirteen" />
-  <project path="packages/apps/SettingsIntelligence" name="LineageOS/android_packages_apps_SettingsIntelligence" remote="github" revision="lineage-20.0" />
-  <project path="packages/inputmethods/LatinIME" name="yaap/packages_inputmethods_LatinIME" remote="github" revision="thirteen" />
+  <project path="packages/providers/DownloadProvider" name="Project-Awaken/android_packages_providers_DownloadProvider" remote="github" revision="triton" />
+  <project path="packages/apps/Etar" name="LineageOS/android_packages_apps_Etar" remote="github" revision="lineage-20.0" />
+  <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" remote="github" revision="lineage-20.0" />
+  <project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" remote="github" revision="lineage-20.0" />
+  <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" remote="github" revision="lineage-20.0" />
+  <project path="packages/apps/Messaging" name="Project-Awaken/android_packages_apps_Messaging" remote="github" revision="triton" />
+  <project path="packages/apps/SettingsIntelligence" name="Project-Awaken/android_packages_apps_SettingsIntelligence" remote="github" revision="triton" />
+  <project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" remote="github" revision="lineage-20.0" />
   <project path="packages/apps/GrapheneCam" name="android_packages_apps_GrapheneCam" remote="cloex" clone-depth="1" />
-  <project path="packages/apps/NewPrebuilts" name="android_packages_apps_NewPrebuilts" remote="cloex" clone-depth="1" />
+ <!-- <project path="packages/apps/NewPrebuilts" name="android_packages_apps_NewPrebuilts" remote="cloex" clone-depth="1" />-->
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="cloex" />
