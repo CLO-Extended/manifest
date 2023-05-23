@@ -48,8 +48,13 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
+  <remote  name="cloex"
+           fetch="https://github.com/MI439-CLO"
+           revision="topaz" />
+
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
+  <include name="cloex.xml"/>
   <include name="obsolete.xml"/>
 
 </manifest>
